@@ -1,0 +1,108 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    color: black;
+    background-color: whitesmoke;
+    font-family: Arial;
+    line-height: 2;
+  }
+  
+  #main-doc{
+    margin-left: 25%;
+    margin-top: 0;
+    height: 100%;
+    padding: 1px 16px;
+    height: 1000px;
+    
+    
+  }
+  
+  header{
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  #main-doc header{
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: rgb(17, 233, 17);
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  #Wel{
+    text-align: center;
+  }
+  #navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(29, 27, 27);
+    font-size: x-large;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid;
+  }
+  
+  #navbar li a{
+    display:block;
+    padding:70px;
+    text-decoration:none;
+  }
+  
+  #navbar li{
+    text-align:center;
+    border-bottom-width:0px;
+    border:1px solid grey;
+    padding:45px;
+    padding-left:40px;
+    color:white;
+    list-style-type:none;
+    position:relative;
+  }
+  
+  #navbar li:last-child{
+    border-bottom:none;
+  }
+  
+  #navbar a{
+    color:black;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  
+  #navbar{
+    position:fixed;
+  }
+  
+  p {
+    font-size: 100%;
+    color: dimgray;
+    font-family: sans-serif;
+  }
+  code{
+    display:block;
+    text-align:left;
+    color:crimson;
+    background-color:palegoldenrod;
+    padding:10px;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width:400px){
+    #main-doc{
+      margin-left:-10px;
+    }
+  }
